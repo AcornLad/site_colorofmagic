@@ -1,0 +1,19 @@
+{
+  "name": "site_colorofmagic",
+  "version": "1.0.0",
+  "description": "A site to host my JS games",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SushiRabbit/site_colorofmagic.git"
+  },
+  "author": "Conrad Cash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SushiRabbit/site_colorofmagic/issues"
+  },
+  "homepage": "https://github.com/SushiRabbit/site_colorofmagic#readme"
+}
