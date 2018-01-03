@@ -2,8 +2,9 @@
   "name": "site_colorofmagic",
   "version": "1.0.0",
   "description": "A site to host my JS games",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "dev": "nodemon app.js",
     "test": "npm run dev"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/SushiRabbit/site_colorofmagic/issues"
   },
-  "homepage": "https://github.com/SushiRabbit/site_colorofmagic#readme"
+  "homepage": "https://github.com/SushiRabbit/site_colorofmagic#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
